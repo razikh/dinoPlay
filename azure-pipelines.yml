@@ -22,3 +22,6 @@ steps:
     script: |
       ls
       pwd
+- task: Bash@3
+  inputs:
+    filePath: '/home/ubuntu/a.sh'
